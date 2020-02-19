@@ -1,0 +1,6 @@
+1=> db.movies.find({})
+2=> db.movies.find({writer:'Quentin Tarantino'})
+3=> db.movies.find({actor:'Brad Pitt'})
+4=> db.movies.find({franchise:'The Hobbit'})
+5=> db.movies.find({year:{$gt: 1990, $lt: 2000}})
+6=> db.movies.find({year:{$gt: 2000, $lt: 2010}})
